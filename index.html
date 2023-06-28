@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <title>Online voting system - Home</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="headerSection">
+            <h1 class="title">Digital Voting</h1>
+        </div>
+        <hr>
+
+        <div class="loginSection">
+            <h2 class="title2">Login</h2>
+            <form action="api/login.php" method="POST" class="formContainer">
+                <input type="number" name="mob" placeholder="Enter mobile" required>
+                <input type="password" name="pass" placeholder="Enter password" required>
+                <select name="role">
+                    <option value="1">Voter</option>
+                    <option value="2">Group</option>
+                </select>
+                <button class="loginbtn" type="submit" name="loginbtn">Login</button>
+                <p class="para">New user? <a href="routes/register.html">Register here</a></p>
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>
