@@ -1,14 +1,14 @@
 <html>
 
 <head>
-    <title>Online voting system - Registratrion</title>
+    <title>Digital Voting - Registratrion</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
     <div class="container">
         <div class="headerSection">
-            <h1 class="title">Online Voting System</h1>
+            <h1 class="title">Digital Voting</h1>
         </div>
         <hr>
 
